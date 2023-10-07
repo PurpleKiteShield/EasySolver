@@ -43,18 +43,18 @@ jobs:
                                
       - name: Build Plugin
         run: |
-          invoke-expression 'dotnet build --no-restore --configuration Release RotationSolver'
+          invoke-expression 'dotnet build --no-restore --configuration Release EasySolver'
            
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
-          path: .\RotationSolver\bin\Release\net7.0-windows\RotationSolver\
+          path: .\EasySolver\bin\Release\net7.0-windows\EasySolver\
 
       - name: publish on version change
         id: publish_nuget
         uses: alirezanet/publish-nuget@v3.0.4
         with:
-          PROJECT_FILE_PATH: RotationSolver.Basic/RotationSolver.Basic.csproj
+          PROJECT_FILE_PATH: EasySolver.Basic/EasySolver.Basic.csproj
           VERSION_FILE_PATH: Directory.Build.props
           NUGET_KEY: ${{secrets.nuget_api_key}}
 
