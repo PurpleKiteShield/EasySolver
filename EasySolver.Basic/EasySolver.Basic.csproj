@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	  <PackageIcon>Logo.png</PackageIcon>
+	  <Description>A basic library for rotation development in FFXIV in EasySolver.</Description>
+	  <PackageId>EasySolver.Basic</PackageId>
+	  <Title>EasySolver.Basic</Title>
+	  <RepositoryUrl>https://github.com/UnstableFlipPhone/EasySolver/tree/main/EasySolver.Basic</RepositoryUrl>
+	  <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+	  <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+	  <PackageTags>FFXIV, FF14, Dalamud, Rotation</PackageTags>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <GenerateDocumentationFile>True</GenerateDocumentationFile>
+	  <EnforceCodeStyleInBuild>False</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+  <ItemGroup>
+	  <Using Include="System.ComponentModel" />
+	  <Using Include="Dalamud.Game.ClientState.JobGauge.Types" />
+
+	  <Using Include="Dalamud.Game.ClientState.Objects.Types" />
+
+	  <Using Include="EasySolver.Basic" />
+	  <Using Include="EasySolver.Basic.Actions" />
+	  <Using Include="EasySolver.Basic.Attributes" />
+	  <Using Include="EasySolver.Basic.Configuration.RotationConfig" />
+	  <Using Include="EasySolver.Basic.Data" />
+	  <Using Include="EasySolver.Basic.Helpers" />
+	  <Using Include="EasySolver.Basic.Rotations" />
+	  <Using Include="EasySolver.Basic.Rotations.Basic" />
+
+	  <ProjectReference Include="..\ECommons\ECommons\ECommons.csproj">
+		  <PrivateAssets>all</PrivateAssets>
+	  </ProjectReference>
+
+	  <None Include="..\COPYING.LESSER">
+		<Pack>True</Pack>
+		<PackagePath>\</PackagePath>
+      </None>
+      <None Include="..\Images\Logo.png">
+		<Pack>True</Pack>
+		<PackagePath>\</PackagePath>
+      </None>
+      <PackageReference Include="Svg" Version="3.4.4" />
+	  <None Update="README.md">
+		<Pack>True</Pack>
+		<PackagePath>\</PackagePath>
+	  </None>
+  </ItemGroup>
+</Project>
