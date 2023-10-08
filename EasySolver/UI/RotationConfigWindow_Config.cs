@@ -279,11 +279,11 @@ public partial class RotationConfigWindow
             && !DownloadHelper.UsersHash.Contains(str)
             && !RotationUpdater.AuthorHashes.ContainsKey(str))
         {
-            if (ImGui.Button("DM your Hash to ArchiTed for being greeted."))
+            if (ImGui.Button(/*"DM your Hash to ArchiTed for being greeted."*/ "Doesn't work at the moment"))
             {
                 ImGui.SetClipboardText(str);
                 Notify.Success($"Your hash \"{str}\" copied to clipboard.");
-                Util.OpenLink("https://discord.com/users/1007293294100877322");
+                Util.OpenLink(/*"https://discord.com/users/1007293294100877322"*/"https://pastebin.com/");
             }
         }
     }

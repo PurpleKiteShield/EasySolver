@@ -2,13 +2,13 @@
   <PropertyGroup>
 	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	  <PackageIcon>Logo.png</PackageIcon>
-	  <Description>A basic library for rotation development in FFXIV in EasySolver.</Description>
+	  <Description>A library for EasySolver.</Description>
 	  <PackageId>EasySolver.Basic</PackageId>
 	  <Title>EasySolver.Basic</Title>
 	  <RepositoryUrl>https://github.com/UnstableFlipPhone/EasySolver/tree/main/EasySolver.Basic</RepositoryUrl>
 	  <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 	  <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
-	  <PackageTags>FFXIV, FF14, Dalamud, Rotation</PackageTags>
+	  <PackageTags>Plugin</PackageTags>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <GenerateDocumentationFile>True</GenerateDocumentationFile>

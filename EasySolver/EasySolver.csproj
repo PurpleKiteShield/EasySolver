@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-	  <Description>Based on the pve combat information in one frame, find the best action.</Description>
+	  <Description>Find the best action based on the combat.</Description>
 	  <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	  <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>

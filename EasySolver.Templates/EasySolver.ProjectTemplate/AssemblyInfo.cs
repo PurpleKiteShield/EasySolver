@@ -2,4 +2,4 @@
 [assembly: AuthorHash(Hash = "Ig4lHXUohMZNIeheUtAtRg==")]
 
 //Something to show your link.
-[assembly: AssemblyLink(Donate = "https://ko-fi.com/archited", UserName = "ArchiDog1998", Repository = "FFXIVRotations")]
+[assembly: AssemblyLink(Donate = "", UserName = "UnstableFlipPhone", Repository = "EasyRotations")]

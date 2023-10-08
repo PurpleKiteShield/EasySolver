@@ -1,15 +1,9 @@
 ﻿
 name: Easy Solver
-author: Easy
+author: Slimey
 description: |-
-  Analyses PvE combat information every frame and finds the best action.
-
-  This means almost all the information available in one frame in combat, including the status of all players in the party, the status of any hostile targets, skill cooldowns, the MP and HP of characters, the location of characters, casting status of the hostile target, combo, combat duration, player level, etc.
-
-  Then, it will highlight the best action on the hot bar, or help you to click on it.
-
-  It is designed for `general combat`, not for savage or ultimate. Use it carefully.
-punchline: Analyses PvE combat information every frame and finds the best action.
+  Find the best action based on the combat.
+punchline: Analyses combat information every frame and finds the best action.
 repo_url: https://github.com/UnstableFlipPhone/EasySolver
 icon_url: https://raw.githubusercontent.com/UnstableFlipPhone/EasySolver/main/Images/Logo.png
 dalamud_api_level: 9

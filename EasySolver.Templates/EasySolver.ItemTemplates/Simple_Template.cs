@@ -1,4 +1,4 @@
-﻿namespace RotationSolver.ItemTemplates;
+﻿namespace EasySolver.ItemTemplates;
 
 // Link to the Ratation source code
 [SourceCode(Path = "%Branch/FilePath to your sourse code% eg. main/DefaultRotations/Melee/NIN_Default.cs%")]

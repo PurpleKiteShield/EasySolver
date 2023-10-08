@@ -1,4 +1,4 @@
-﻿namespace RotationSolver.ItemTemplates;
+﻿namespace EasySolver.ItemTemplates;
 
 
 // RotationDesc here is used to display burst actions, indicating that if 'Auto Burst' is not turned on, the actions will not be released

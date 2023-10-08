@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RotationSolver.Basic" Version="3.2.6" />
+    <PackageReference Include="EasySolver.Basic" Version="0.0.0.7" />
   </ItemGroup>
 
 	<ItemGroup>
@@ -43,13 +43,13 @@
 		</Reference>
 
 		<Using Include="Dalamud.Game.ClientState.JobGauge.Enums" />
-		<Using Include="RotationSolver.Basic" />
-		<Using Include="RotationSolver.Basic.Actions" />
-		<Using Include="RotationSolver.Basic.Attributes" />
-		<Using Include="RotationSolver.Basic.Configuration.RotationConfig" />
-		<Using Include="RotationSolver.Basic.Data" />
-		<Using Include="RotationSolver.Basic.Helpers" />
-		<Using Include="RotationSolver.Basic.Rotations.Basic" />
+		<Using Include="EasySolver.Basic" />
+		<Using Include="EasySolver.Basic.Actions" />
+		<Using Include="EasySolver.Basic.Attributes" />
+		<Using Include="EasySolver.Basic.Configuration.RotationConfig" />
+		<Using Include="EasySolver.Basic.Data" />
+		<Using Include="EasySolver.Basic.Helpers" />
+		<Using Include="EasySolver.Basic.Rotations.Basic" />
 	</ItemGroup>
 
 	<ItemGroup>
