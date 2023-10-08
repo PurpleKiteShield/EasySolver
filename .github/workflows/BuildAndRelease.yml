@@ -2,7 +2,7 @@ on:
   push:
     branches:
       - main
-name: BuildAndRelease
+name: release-please
 jobs:
   release-please:
     name : releasePlz
@@ -16,7 +16,7 @@ jobs:
         with:
           release-type: node
           package-name: release-please-action
-          default-branch: release
+          default-branch: main
   
   build:
     name : build
@@ -83,5 +83,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.PAT }}
-          repository: ${{ github.repository_owner }}/Dalamud_Plugins
+          repository: ${{ github.repository_owner }}/PluginHUB
           event-type: new-release
